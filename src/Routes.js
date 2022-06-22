@@ -6,8 +6,10 @@ import Dashboard from './Components/Dashboard';
 import {Routes, Route} from 'react-router-dom';
 import {useState} from "react";*/
 
-<Route exact path="/login">
+<Route path="/login">
 
     <Login />
 
 </Route>
+
+export default Route;

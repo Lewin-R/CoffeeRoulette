@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {GoogleLogin} from "react-google-login";
 import logo from "../logoCoffeeRoulette.svg";
-import App from "../App";
 import Button from "react-bootstrap/Button"
 
 const clientID = "231963202217-njj9ka9ivkh29p9k1bmmjojcpi171ing.apps.googleusercontent.com";

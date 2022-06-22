@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {
     BrowserRouter as Router,
     Routes,
@@ -13,7 +13,7 @@ const App = () => {
     return (
         <div className="App">
             <h2>hello</h2>
-            <Login/>
+
            <Dashboard/>
         </div>
     );
