@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1436998b-9bb4-4a44-bb07-471f47a60f84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/coffee_roulette.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coffee_roulette.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Dashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logoCoffeeRoulette.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,6 +76,7 @@
       <recent name="C:\Users\lewin\IntelliJProjects\coffee_roulette\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lewin\IntelliJProjects\coffee_roulette\src\Components" />
       <recent name="C:\Users\lewin\IntelliJProjects\coffee_roulette\public" />
     </key>
   </component>
@@ -110,6 +118,8 @@
       <workItem from="1655729903471" duration="2977000" />
       <workItem from="1655797377557" duration="12602000" />
       <workItem from="1655820893393" duration="4426000" />
+      <workItem from="1655882977581" duration="1298000" />
+      <workItem from="1655887246593" duration="4524000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1655730708445</created>
@@ -132,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655813686221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added sso to login, but still singlepage, until now">
+      <created>1655883217629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655883217629</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +160,8 @@
     <MESSAGE value="-" />
     <MESSAGE value="added maven and trying to initialise spring boot" />
     <MESSAGE value="trying to add multiple pages, following a tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to add multiple pages, following a tutorial" />
+    <MESSAGE value="added sso to login, but still singlepage, until now" />
+    <option name="LAST_COMMIT_MESSAGE" value="added sso to login, but still singlepage, until now" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
