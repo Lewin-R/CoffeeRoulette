@@ -12,9 +12,7 @@ import Dashboard from "./Components/Dashboard";
 const App = () => {
     return (
         <div className="App">
-            <h2>hello</h2>
-
-           <Dashboard/>
+            <Login/>
         </div>
     );
 }

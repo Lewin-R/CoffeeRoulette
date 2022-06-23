@@ -1,9 +1,9 @@
 import * as React from 'react';
 import {GoogleLogin} from "react-google-login";
-import logo from "../logoCoffeeRoulette.svg";
-import Button from "react-bootstrap/Button"
+/*import logo from "../logoCoffeeRoulette.svg";*/
 
-const clientID = "231963202217-njj9ka9ivkh29p9k1bmmjojcpi171ing.apps.googleusercontent.com";
+//With google accout D dint want to use, but it is the only working,???
+const clientID = "313776688219-aom4pa92gqmhcmsubgp1thin4f3b392m.apps.googleusercontent.com";
 
 const Login = () => {
     const onSuccess = (res: any) =>{
@@ -17,7 +17,7 @@ const Login = () => {
         <div className="flex-box align-items-center justify-content-center">
             <div className="text-center">
                 <h1>Coffee Roulette</h1>
-                <img className={"img-logo"} src={logo} alt="Logo Coffee Roulette" />
+                <img className={"img-logo"} src="../logoCoffeeRoulette.svg" alt="Logo Coffee Roulette" />
                 <div className="mt-xl-5">
                     <h2>Login</h2>
                     <GoogleLogin
@@ -29,11 +29,6 @@ const Login = () => {
                         isSignedIn={true}
                     />
                 </div>
-                <Button size="lg" type="submit">
-
-                    Login
-
-                </Button>
             </div>
         </div>
     );
