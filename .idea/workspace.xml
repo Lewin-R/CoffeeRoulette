@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1436998b-9bb4-4a44-bb07-471f47a60f84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Auth.tsx" afterDir="false" />
+    <list default="true" id="1436998b-9bb4-4a44-bb07-471f47a60f84" name="Changes" comment="redirecting works, need to add signed in validation">
+      <change afterPath="$PROJECT_DIR$/src/Components/AdminView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NotFound.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/PrivateRouting.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsx-ast-utils/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsx-ast-utils/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsx-ast-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsx-ast-utils/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashboard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -51,26 +58,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.last.introduce.type": "LET",
-    "last_opened_file_path": "C:/Users/lewin/IntelliJProjects/coffee_roulette/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "spring.configuration.checksum": "15cf42ab23d5f64c4c4813748595a91f",
-    "ts.external.directory.path": "C:\\Users\\lewin\\IntelliJProjects\\coffee_roulette\\node_modules\\typescript\\lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lewin/IntelliJProjects/coffee_roulette/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;15cf42ab23d5f64c4c4813748595a91f&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\lewin\\IntelliJProjects\\coffee_roulette\\node_modules\\typescript\\lib&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lewin\IntelliJProjects\coffee_roulette\src" />
@@ -125,7 +132,9 @@
       <workItem from="1655972172769" duration="1397000" />
       <workItem from="1655976039927" duration="2060000" />
       <workItem from="1655989284127" duration="1325000" />
-      <workItem from="1656311028382" duration="4996000" />
+      <workItem from="1656311028382" duration="15527000" />
+      <workItem from="1656427721727" duration="4142000" />
+      <workItem from="1656486773781" duration="556000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1655730708445</created>
@@ -197,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655978105881</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="redirecting works, need to add signed in validation">
+      <created>1656319707728</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656319707728</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +238,8 @@
     <MESSAGE value="adding node modules to vcs" />
     <MESSAGE value="j" />
     <MESSAGE value="Fixed gauth and the picture bug (well just a workaround)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed gauth and the picture bug (well just a workaround)" />
+    <MESSAGE value="redirecting works, need to add signed in validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="redirecting works, need to add signed in validation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

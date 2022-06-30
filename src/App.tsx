@@ -1,52 +1,30 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route,
-    Link,
-    Navigate
-} from "react-router-dom";
-import './App.css';
+import ProtectedRoute from "./Components/PrivateRouting";
+import {Navigate, Route, Routes} from "react-router-dom";
 import Login from "./Components/Login";
 import Dashboard from "./Components/Dashboard";
-import login from "./Components/Login";
+import NotFound from "./Components/NotFound";
+import './App.css';
+sessionStorage.setItem('Login_State', String(false));
 
 const App = () => {
     return (
-        <div>
-            <div>
-               {/* <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Dashboard</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">Members</Link>
-                        </li>
-                    </ul>
-                </nav>*/}
-
+        <>
+            <div className="App">
                 <Routes>
-                    {/* redirect to login from the default path*/}
-                    <Route path="/" element={<Navigate to="/login" />} />
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/dashboard" element={<Dashboard />} />
-                    {/*404 Error Route*/}
-                    <Route
-                        path="*"
-                        element={
-                            <div>
-                                <h2>404 Page not found</h2>
-                            </div>
-                        }
-                    />
+                    <Route path="/" element={<Navigate to="/login"/>}/>
+                    <Route path="/login" element={<Login/>}/>
+                    <Route path="/dashboard" element={
+                        <ProtectedRoute state={sessionStorage.getItem('Login-State')}>
+                            <Dashboard/>
+                        </ProtectedRoute>
+                    }/>
+                    <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </div>
-        </div>
+        </>
     );
 }
-
-
 
 
 export default App;

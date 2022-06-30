@@ -1,5 +1,10 @@
 html {
+  height: 100vh;
   box-sizing: border-box;
+}
+
+body > #root > div {
+  height: 100vh;
 }
 
 *, *::before, *::after {
@@ -45,4 +50,15 @@ p {
 .img-logo{
   height: 20vh;
 }
+.centered-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
+.center{
+  margin: auto;
+  width: 50vw;
+  padding: 10px;
+}
