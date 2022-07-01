@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1436998b-9bb4-4a44-bb07-471f47a60f84" name="Changes" comment="redirecting works, need to add signed in validation">
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar.tsx" afterDir="false" />
+    <list default="true" id="1436998b-9bb4-4a44-bb07-471f47a60f84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/#.##" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NotFound.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NotFound.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +129,10 @@
       <workItem from="1656311028382" duration="15527000" />
       <workItem from="1656427721727" duration="4142000" />
       <workItem from="1656486773781" duration="556000" />
-      <workItem from="1656578065921" duration="1158000" />
+      <workItem from="1656578065921" duration="1190000" />
+      <workItem from="1656680053881" duration="3484000" />
+      <workItem from="1656697062345" duration="466000" />
+      <workItem from="1656697543211" duration="791000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1655730708445</created>
@@ -207,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656319707728</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="khjsdf">
+      <created>1656579255279</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656579255279</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +244,8 @@
     <MESSAGE value="j" />
     <MESSAGE value="Fixed gauth and the picture bug (well just a workaround)" />
     <MESSAGE value="redirecting works, need to add signed in validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="redirecting works, need to add signed in validation" />
+    <MESSAGE value="khjsdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="khjsdf" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -62,3 +62,16 @@ p {
   width: 50vw;
   padding: 10px;
 }
+
+.DashboardBody{
+  display:inline-block;
+}
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
