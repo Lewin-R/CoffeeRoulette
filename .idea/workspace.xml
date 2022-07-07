@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1436998b-9bb4-4a44-bb07-471f47a60f84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Account.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/CRUD.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/DatePicker.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/SSO.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/UserTable.tsx" afterDir="false" />
+    <list default="true" id="1436998b-9bb4-4a44-bb07-471f47a60f84" name="Changes" comment="PrivateRouting.tsx now works, bug fixed. Began to try adding a CRUD. Date Picker Component added and working, but no DB functionality yet. Outsourced the SSO to its own component. User Table should return the Table of all Users, but not working as intended.">
+      <change afterPath="$PROJECT_DIR$/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AdminView.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AdminView.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Auth.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PrivateRouting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PrivateRouting.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Account.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Account.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SSO.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SSO.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,26 +52,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lewin/IntelliJProjects/coffee_roulette/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;15cf42ab23d5f64c4c4813748595a91f&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\lewin\\IntelliJProjects\\coffee_roulette\\node_modules\\typescript\\lib&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.last.introduce.type": "LET",
+    "last_opened_file_path": "C:/Users/lewin/IntelliJProjects/coffee_roulette/node_modules",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "spring.configuration.checksum": "15cf42ab23d5f64c4c4813748595a91f",
+    "ts.external.directory.path": "C:\\Users\\lewin\\IntelliJProjects\\coffee_roulette\\node_modules\\typescript\\lib"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lewin\IntelliJProjects\coffee_roulette\src" />
@@ -92,6 +84,9 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.run">
+    <configuration name="Debug" type="JavascriptDebugType" engineId="37cae5b9-e8b2-4949-9172-aafa37fbc09c" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
     <configuration name="CoffeeRouletteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="coffee_roulette" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="SGKB.CoffeeRoulette.CoffeeRouletteApplication" />
@@ -110,6 +105,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.Debug" />
       <item itemvalue="npm.run" />
       <item itemvalue="Spring Boot.CoffeeRouletteApplication" />
     </list>
@@ -216,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656319707728</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="PrivateRouting.tsx now works, bug fixed. Began to try adding a CRUD. Date Picker Component added and working, but no DB functionality yet. Outsourced the SSO to its own component. User Table should return the Table of all Users, but not working as intended.">
+      <created>1657184369714</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657184369714</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +245,26 @@
     <MESSAGE value="j" />
     <MESSAGE value="Fixed gauth and the picture bug (well just a workaround)" />
     <MESSAGE value="redirecting works, need to add signed in validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="redirecting works, need to add signed in validation" />
+    <MESSAGE value="PrivateRouting.tsx now works, bug fixed. Began to try adding a CRUD. Date Picker Component added and working, but no DB functionality yet. Outsourced the SSO to its own component. User Table should return the Table of all Users, but not working as intended." />
+    <option name="LAST_COMMIT_MESSAGE" value="PrivateRouting.tsx now works, bug fixed. Began to try adding a CRUD. Date Picker Component added and working, but no DB functionality yet. Outsourced the SSO to its own component. User Table should return the Table of all Users, but not working as intended." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Components/Login.tsx</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Components/Login.tsx</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

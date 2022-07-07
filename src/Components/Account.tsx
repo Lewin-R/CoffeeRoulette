@@ -1,8 +1,17 @@
 import * as React from 'react';
 import Navbar from "./Navbar";
-import {retGSSOUser} from "./SSO";
+
 
 const Account = () => {
+    let userInfo = sessionStorage.getItem('User-Info');
+
+    let profile = userInfo!.at(0);
+    let id_token = userInfo!.at(1);
+    let name = userInfo!.at(2);
+    let img_url = userInfo!.at(3);
+    let email = userInfo!.at(4);
+    let phone;
+
     return (
         <div>
             <Navbar/>
@@ -11,12 +20,29 @@ const Account = () => {
                     <div className="float-child">
                         <label htmlFor="">Aktueller Nutzer</label>
                         <br/>
-                        {retGSSOUser()}
+                        <table className="table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Profil</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">E-Mail</th>
+                                <th scope="col">Telefon</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th>{profile}</th>
+                                <td>{name}</td>
+                                <td>{email}</td>
+                                <td>{phone}</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
-    );
+);
 }
 
 export default Account;

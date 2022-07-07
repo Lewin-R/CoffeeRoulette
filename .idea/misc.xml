@@ -17,4 +17,5 @@
   <component name="ProjectType">
     <option name="id" value="jpab" />
   </component>
+  <component name="ReactNativePackager" nodePath="project" reactNativePackagePath="$PROJECT_DIR$/node_modules" workingDirectory="$PROJECT_DIR$" />
 </project>
