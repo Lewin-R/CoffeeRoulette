@@ -1,14 +1,19 @@
 import React from "react";
-import {Navigate} from "react-router-dom";
+import {
+    Routes,
+    Route,
+    Link,
+    Navigate,
+    Outlet,
+} from 'react-router-dom';
 
-class ProtectedRoute extends React.Component<{ state: any, children: any }> {
-    render() {
-        let {state, children} = this.props;
-        if (state === "false") {
-            return <Navigate to={"/login"} replace/>;
-        }
-        return children;
+
+const ProtectedRoute = ({ state, redirectPath}: {state: string; redirectPath: string}) => {
+    if (state === "false") {
+        return <Navigate to={redirectPath} replace />;
     }
-}
+
+    return <Outlet />;
+};
 
 export default ProtectedRoute;
